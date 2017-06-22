@@ -29,6 +29,8 @@ fear cap one
 one girls grep cap
 cat fox sometimes one
 ```
+
+#### java -jar wordsearch.jar -i input.csv -q one -o out.txt
 ##### out.txt
 
 ```csv
