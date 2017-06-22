@@ -16,9 +16,10 @@ public class Searcher {
 
         String invertArr[][] = invertArray(arr);
         List<Words> wordsList = new ArrayList<>();
+        try {
         Pattern p = Pattern.compile(word);
         Matcher m;
-        try {
+        
             for (int i = 0; i < invertArr.length; i++)
                 for (int j = 0; j < invertArr[i].length; j++) {
                     m = p.matcher(invertArr[i][j]);
