@@ -29,6 +29,9 @@ public class WriteService {
             case FILE_TXT:
                 fileWriter = new TXTFileWriter();
                 break;
+                default:
+                    System.out.println("ERROR: Incorrect file output format.");
+                    System.exit(0);
         }
         return fileWriter;
     }
